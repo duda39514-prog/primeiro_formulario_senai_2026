@@ -1,1 +1,95 @@
-# primeiro_formulario_senai_2026
+# Primeiro Formulário Criado no HTML
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário(*￣3￣)╭</title>
+</head>
+ <body style="background: linear-gradient(135deg, rgb(235, 203, 232), rgb(213, 232, 193));">
+    <center><h1 style="color: rgb(63, 113, 55);">Formulário de Cadastro</h1></center>
+    <center><p style="font-family:Georgia, 'Times New Roman', Times, serif; font-size: 20px; color: rgb(73, 137, 85);">Realize o cadastro e concorra a prêmios!(￣▽￣)</p></center>
+           <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4GEeUIJZ-cfp_VDnnvYkieyAlBOmQlRWgyGxXwD87A&s=10" width="200px" height="auto"></center>
+    <form>
+       <label style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Nome completo</label>
+       <input style="font-family:Verdana, Geneva, Tahoma, sans-serif;" type="text" placeholder="Insira seu nome" required />
+       <br><br>
+       <label style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Data de Nascimento</label>
+       <input type="date"/>
+       <br><br>
+       <label style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">CPF</label>
+       <input type="number" />
+       <br><br>
+       <label style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Você nos indicaria??\^o^/</label>
+       <input type="number" min="1" max="5"/>
+       <br><br>
+       <label style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Email</label>
+       <input type="email" placeholder="Informe seu email" required/>
+       <br><br>
+       <label style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Cor favorita</label>
+       <input type="color"/>
+       <br><br>
+       <label style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Em qual volume você ouve música (0 a 100)??ㄟ(≧◇≦)ㄏ</label>
+        <input id="volume" type="range" min="0" max="100" value="50" oninput="atualizaVolume(this.value)" style="accent-color: rgb(189, 98, 113)"/>
+  <span id="valor-volume">50</span>
+  <br><br>
+    <br>☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆<br>
+  <fieldset>
+    <legend style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Gênero</legend>
+    <input style="accent-color: rgb(76, 12, 212); font-family:Verdana, Geneva, Tahoma, sans-serif;"type="radio" name="genero"/>
+    <label style="color:rgb(42, 42, 132); font-family:Verdana, Geneva, Tahoma, sans-serif;">Masculino╰(*°▽°*)╯</label>
+    <input style="accent-color: pink; font-family:Verdana, Geneva, Tahoma, sans-serif;" type="radio" name="genero"/>
+    <label style="color:rgb(182, 46, 148); font-family:Verdana, Geneva, Tahoma, sans-serif;">Feminino╰(*°▽°*)╯</label>
+  </fieldset>
+  <br>☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆<br>
+  <fieldset>
+     <legend style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Gato ou Cachorro??( •̀ ω •́ )✧</legend>
+     <input style="accent-color: rgb(212, 162, 12); font-family:Verdana, Geneva, Tahoma, sans-serif;"type="checkbox" id="gato"/>
+     <label style="color: rgb(110, 98, 17); font-family:Verdana, Geneva, Tahoma, sans-serif;">Gato</label>
+     <img src="https://i.pinimg.com/originals/eb/47/92/eb4792a5a58e61aa9a673771e44cde30.gif" width="100px" height="auto">
+     <input style="accent-color: rgb(80, 112, 173);font-family:Verdana, Geneva, Tahoma, sans-serif;" type="checkbox" id="cachorro"/>
+    <label style="color:rgb(57, 57, 132); font-family:Verdana, Geneva, Tahoma, sans-serif;">Cachorro</label>
+     <img src="https://cdn.onwardstate.com/uploads/2015/05/oie_14175751vZSQRLEn.gif" width="100px" height="auto">
+  </fieldset>
+  <br>☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆☆*: .｡..｡.:*☆<br>
+  <br><br>
+    <label style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Informações Adicionais</label>
+    <textarea id="info"></textarea>
+    <br><br>
+    <label style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Senha</label>
+    <input type="password"/>
+    <br><br>
+    <label style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Informe a Cidade</label>
+    <select>
+        <option style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Jaguariúna</option>
+        <option style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Amparo</option>
+        <option style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Pedreira</option>
+        <option style="color: rgb(86, 54, 115); font-family:Verdana, Geneva, Tahoma, sans-serif;">Campinas</option>
+    </select>
+<br><br>
+    <label for="pais">Selecione o seu país:</label>
+<select name="pais" id="pais">
+    <option value="">-- Escolha um país --</option>
+    <option value="BR">Brasil</option>
+    <option value="PT">Portugal</option>
+    <option value="US">Estados Unidos</option>
+    <option value="AR">Argentina</option>
+</select>
+    <br><br>
+    <h2><p style="color: rgb(51, 77, 21); font-family:Verdana, Geneva, Tahoma, sans-serif;">Para Saber mais sobre as cidades</p></h2>
+    <a href="https://pt.wikipedia.org/wiki/Amparo_(S%C3%A3o_Paulo)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQisVVbwYVZCIeNGZ5abwpHLt2pmCX7pgmsynKkpcb6DA&s=10" width="200px" height="auto"></a>
+    <a href="https://pt.wikipedia.org/wiki/Jaguari%C3%BAna"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKig4HtbM3oCa9lPgItQ_8HrIsqY1gAjtcs_4T27TwOw&s=10" width="200px" height="auto"></a>
+<a href="https://pt.wikipedia.org/wiki/Pedreira_(munic%C3%ADpio)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNFgEhxHBSLieFFkDISwjCuGWyB3ITUMUsUhTDb3ebbQ&s=10" width="200px" height="auto"></a>
+<a href="https://pt.wikipedia.org/wiki/Campinas"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEn129Svqsc5tUt7e-OhRfkmoRgHoR6qKtfoSbdbLAyg&s=10" width="200px" height="auto"></a>
+    <br><br>
+    <input type="reset" value="Limpar Form"/>
+<input type="submit"/>
+</form>
+     <script>
+        function atualizaVolume(valor){
+          document.getElementById('valor-volume').textContent = valor;
+        }
+     </script>
+</body>
+</html>
